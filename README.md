@@ -18,7 +18,7 @@ After all edit package.json file then in "scripts" attribut change the value the
     "start": "nodemon index.js"
   },
   
-After install dotenv create a file with ".env" then write below codes(then save it):
+After install dotenv create a file with ".env" then write below codes(then save it):                                                
 //Connection link to MongoDB                                        
 DB_CONNECT = mongodb+srv://<username>:<password>@p1.4jm6a.mongodb.net/p1?retryWrites=true&w=majority            
 //JWT-Token randome secret string                                                           
